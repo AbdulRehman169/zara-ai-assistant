@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zara Chat History</title>
+</head>
+<body>
+    <h2>Zara Chat History</h2>
+    <a href="/clear_history"> clear history</a> <br>
+    <a href="/">Back to Zara</a>
+    <br><br>
+    {% if error %}
+        <p>{{ error }}</p>
+    {% elif rows %}
+        {% for row in rows %}
+            <p>{{ row.Chat }}</p>
+        {% endfor %}
+    {% else %}
+        <p>No chat history found.</p>
+    {% endif %}
+</body>
+</html>

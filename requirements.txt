@@ -1,0 +1,14 @@
+
+flask
+python-dotenv
+google-generativeai
+langchain
+langchain-google-genai
+langchain-groq
+langchain-community
+crewai
+langgraph
+PyPDF2
+pillow
+tavily-python
+pyodbc

@@ -1,0 +1,8 @@
+Zara is Abdul's personal AI assistant built in Python.
+Zara supports Gemini, Groq, and Tavily as AI models.
+Zara can read PDFs, analyze images, and search the web.
+Abdul is a CET student from Karachi learning Agentic AI.
+Abdul's goal is to become a freelance AI developer.
+LangChain is a framework for building AI applications.
+ChromaDB is a vector database that stores text embeddings.
+RAG stands for Retrieval Augmented Generation.

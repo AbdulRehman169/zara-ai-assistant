@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS AI_History;
+USE AI_History;
+
+CREATE TABLE history (
+    No INT AUTO_INCREMENT PRIMARY KEY,
+    Chat TEXT NOT NULL
+);
+
+SELECT * FROM history;
